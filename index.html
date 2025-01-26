@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Rangel</title>
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CDN FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="">Franc Pic's</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Inicio -->
+    <section id="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Photo_Personal.jpg">
+            </div>
+            <h1>Francisco Rangel</h1>
+            <h2>Diseñador Gráfico y Editor de Videos</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MI</h2>
+            <p><span>Hola, soy Francisco Rangel.</span> Diseñador creativo y empático, con una gran pasión por las redes
+                sociales.
+                Disfruto creando contenido original y relevante que inspire a la comunidad y genere conversaciones
+                significativas. Además, soy un excelente oyente y siempre estoy dispuesto a ayudar a resolver cualquier
+                problema.
+                En mi experiencia, he aprendido que una comunidad fuerte se basa en la confianza y la comunicación
+                abierta.</p>
+
+            <div class="fila">
+                <!--Datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento:</strong>
+                            23-07-2000
+                        </li>
+                        <li>
+                            <strong>Celular:</strong>
+                            +502 5532 - 3569
+                        </li>
+                        <li>
+                            <strong>Correo:</strong>
+                            francisco.joseranleo356@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección de residencia:</strong>
+                            Residenciales Valle Grande, San Esteban, Chiquimula.
+                        </li>
+                        <li>
+                            <strong>Oficio</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-computer"></i>
+                            <span>SISTEMAS</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOGRAFÍA</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-video"></i>
+                            <span>GRABACIÓN DE VIDEO</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <!-- <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>-->
+        </div>
+    </section>
+
+    <!-- Seccion SKILLS -->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+
+                    <h3>Habilidades Técnicas</h3>
+
+                    <div class="skill">
+                        <span>Manejo de Programas de Ofimatica</span>
+                        <div class="barra-skill">
+                            <div class="progreso ofimatica">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Ilustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso ilustrator">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>After Efects</span>
+                        <div class="barra-skill">
+                            <div class="progreso afef">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Camtasia Studio</span>
+                        <div class="barra-skill">
+                            <div class="progreso camtasia">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>DaVinci Resolve</span>
+                        <div class="barra-skill">
+                            <div class="progreso davinci">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Profesional Skill -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+
+                    <div class="skill">
+                        <span>Computación</span>
+                        <div class="barra-skill">
+                            <div class="progreso computacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trbequipo">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-section">
+            <h2>CURRICULUM</h2>
+            <div class="fila">
+                <div class="col izquierda">
+
+                    <h3>Estudios Realizados</h3>
+
+                    <div class="item izq">
+                        <h4>EDUCACIÓN PRIMARIA</h4>
+                        <span class="casa">Colegio San Francisco de Asís, La Unión Zacapa.</span>
+                        <span class="fecha">2007 – 2012</span>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maxime ad odit reiciendis
+                            beatae, fuga omnis distinctio consequuntur vero esse exercitationem laborum similique
+                            architecto aliquam voluptatem harum aliquid nisi unde.</p> -->
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>EDUCACIÓN BÁSICA</h4>
+                        <span class="casa">Instituto Nacional de Educación Básica “Armando Súchite Vásquez”, La Unión,
+                            Zacapa.</span>
+                        <span class="fecha">2013 - 2015</span>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maxime ad odit reiciendis
+                            beatae, fuga omnis distinctio consequuntur vero esse exercitationem laborum similique
+                            architecto aliquam voluptatem harum aliquid nisi unde.</p> -->
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>EDUCACIÓN DIVERSIFICADA</h4>
+                        <span class="casa">Instituto Nacional de Educación Diversificada, La Unión, Zacapa.</span>
+                        <span class="fecha">2016 - 2017</span>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maxime ad odit reiciendis
+                            beatae, fuga omnis distinctio consequuntur vero esse exercitationem laborum similique
+                            architecto aliquam voluptatem harum aliquid nisi unde.</p> -->
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>EDUCACIÓN UNIVERSITARIA</h4>
+                        <span class="casa">Universidad Rural de Guatemala, Licenciatura en Educación, 4 semestres
+                            aprobados.</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum maxime ad odit reiciendis
+                            beatae, fuga omnis distinctio consequuntur vero esse exercitationem laborum similique
+                            architecto aliquam voluptatem harum aliquid nisi unde.</p> -->
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+
+                    <h3>Experiencia Laboral</h3>
+
+                    <div class="item drch">
+                        <h4>Encargado de Atención al Cliente</h4>
+                        <span class="casa">Multitec, La Unión, Zacapa</span>
+                        <span class="fecha">Febrero – Junio | año 2018</span>
+                        <p>Atención personalizada a clientes, resolución de consultas y gestión de quejas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item drch">
+                        <h4>Administrador y Encargado de Atención al Cliente</h4>
+                        <span class="casa">Ciber-Internet Homework, La Unión, Zacapa</span>
+                        <span class="fecha">Enero 2021 – Enero 2023</span>
+                        <p>Gestión integral del negocio, incluyendo administración, atención al cliente y soporte
+                            técnico.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item drch">
+                        <h4>Diseñador Gráfico, Creador de Contenido Audiovisual</h4>
+                        <span class="casa">Municipalidad de La Unión, Zacapa</span>
+                        <span class="fecha">Febrero 2023 – Agosto 2024</span>
+                        <p>Desarrollo de material gráfico, creación de contenido para diversas plataformas, edición de
+                            fotografía, videos y audio. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-section">
+            <h2>PORTAFOLIO</h2>
+            <h5>De imágenes</h5>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/img_1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_7.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_8.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_9.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño</h3>
+                        <p>Logotipo</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_10.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Edición de </h3>
+                        <p>Imagen digital</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_11.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Edición de </h3>
+                        <p>Imagen digital</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_12.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de</h3>
+                        <p>Trípticos</p>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="img/img_13.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de</h3>
+                        <p>Trípticos</p>
+                    </div>
+                </div> 
+                
+                <div class="proyecto">
+                    <img src="img/img_14.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Edición de </h3>
+                        <p>Imagen digital</p>
+                    </div>
+                </div>  
+
+                <div class="proyecto">
+                    <img src="img/img_15.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de</h3>
+                        <p>Trípticos</p>
+                    </div>
+                </div>  
+
+                <div class="proyecto">
+                    <img src="img/img_16.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de</h3>
+                        <p>Trípticos</p>
+                    </div>
+                </div>  
+
+                <div class="proyecto">
+                    <img src="img/img_17.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Edición de </h3>
+                        <p>Imagen digital</p>
+                    </div>
+                </div>  
+
+
+                <div class="proyecto">
+                    <img src="img/img_18.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de</h3>
+                        <p>Diplomas</p>
+                    </div>
+                </div>  
+
+                <div class="proyecto">
+                    <img src="img/img_19.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Fotomontaje</h3>
+                        <p>Creación de nuevas imágenes</p>
+                    </div>
+                </div>  
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <!--
+    <section id="contacto" class="contacto">
+        <div class="contenido-section">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+               FORMULARIO
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Numero de Celular">
+                    <input type="text" placeholder="Dirección de Correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-message"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+              MAPA
+                <div class="col">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Residenciales Valle Grande, San Esteban, Chiquimula.
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Comunicate al: +502 5532 - 3569
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Correo: francisco.joseranleo356@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+-->
+    <!-- SECCION FOOTERS -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js">
+</script>
+
+</html>
